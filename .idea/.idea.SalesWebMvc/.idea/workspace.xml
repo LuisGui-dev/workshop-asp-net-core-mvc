@@ -6,10 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea24a689-0947-4e70-b6f4-6fb846bc6979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Services/SellerService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalesWebMvc/SalesWebMvc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/SalesWebMvc.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Sellers/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Sellers/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SalesWebMvc/obj/Debug/netcoreapp2.1/Razor/Views/Sellers/Index.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,7 +94,7 @@
       <workItem from="1642968769690" duration="225000" />
       <workItem from="1642969086251" duration="1648000" />
       <workItem from="1642971149965" duration="1301000" />
-      <workItem from="1642973211028" duration="920000" />
+      <workItem from="1642973211028" duration="3320000" />
     </task>
     <servers />
   </component>
