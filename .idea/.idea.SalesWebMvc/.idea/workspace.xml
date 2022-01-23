@@ -5,20 +5,57 @@
     <projectFile profileName="SalesWebMvc">SalesWebMvc/SalesWebMvc.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea24a689-0947-4e70-b6f4-6fb846bc6979" name="Changes" comment="" />
+    <list default="true" id="ea24a689-0947-4e70-b6f4-6fb846bc6979" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Models/Department.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Models/Enums/SaleStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Models/SalesRecord.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Models/Seller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Controllers/DepartmentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Controllers/DepartmentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Data/SalesWebMvcContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Data/SalesWebMvcContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Migrations/20220123182319_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Migrations/20220123182319_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Migrations/20220123182319_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Migrations/20220123182319_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Migrations/SalesWebMvcContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Migrations/SalesWebMvcContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Models/Departmet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Departments/Index.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="246maam0NdGjzPwMprNhsLo1cOM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -63,14 +100,28 @@
       <option name="presentableId" value="Default" />
       <updated>1642959479575</updated>
       <workItem from="1642959483177" duration="24000" />
+      <workItem from="1642968769690" duration="225000" />
+      <workItem from="1642969086251" duration="1648000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

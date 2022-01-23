@@ -22,7 +22,7 @@ namespace SalesWebMvc.Controllers
         // GET: Departmets
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Departmet.ToListAsync());
+            return View(await _context.Department.ToListAsync());
         }
 
         // GET: Departmets/Details/5
@@ -33,7 +33,7 @@ namespace SalesWebMvc.Controllers
                 return NotFound();
             }
 
-            var departmet = await _context.Departmet
+            var departmet = await _context.Department
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (departmet == null)
             {
@@ -54,15 +54,15 @@ namespace SalesWebMvc.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Departmet departmet)
+        public async Task<IActionResult> Create([Bind("Id,Name")] Department department)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(departmet);
+                _context.Add(department);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(departmet);
+            return View(department);
         }
 
         // GET: Departmets/Edit/5
@@ -73,7 +73,7 @@ namespace SalesWebMvc.Controllers
                 return NotFound();
             }
 
-            var departmet = await _context.Departmet.FindAsync(id);
+            var departmet = await _context.Department.FindAsync(id);
             if (departmet == null)
             {
                 return NotFound();
@@ -86,9 +86,9 @@ namespace SalesWebMvc.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Departmet departmet)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Department department)
         {
-            if (id != departmet.Id)
+            if (id != department.Id)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace SalesWebMvc.Controllers
             {
                 try
                 {
-                    _context.Update(departmet);
+                    _context.Update(department);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DepartmetExists(departmet.Id))
+                    if (!DepartmetExists(department.Id))
                     {
                         return NotFound();
                     }
@@ -113,7 +113,7 @@ namespace SalesWebMvc.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(departmet);
+            return View(department);
         }
 
         // GET: Departmets/Delete/5
@@ -124,7 +124,7 @@ namespace SalesWebMvc.Controllers
                 return NotFound();
             }
 
-            var departmet = await _context.Departmet
+            var departmet = await _context.Department
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (departmet == null)
             {
@@ -139,15 +139,15 @@ namespace SalesWebMvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var departmet = await _context.Departmet.FindAsync(id);
-            _context.Departmet.Remove(departmet);
+            var departmet = await _context.Department.FindAsync(id);
+            _context.Department.Remove(departmet);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool DepartmetExists(int id)
         {
-            return _context.Departmet.Any(e => e.Id == id);
+            return _context.Department.Any(e => e.Id == id);
         }
     }
 }
