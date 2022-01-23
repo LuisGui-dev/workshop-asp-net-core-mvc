@@ -6,10 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea24a689-0947-4e70-b6f4-6fb846bc6979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Data/SeedingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Data/SalesWebMvcContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Data/SalesWebMvcContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/SalesWebMvc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/SalesWebMvc.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +90,7 @@
       <workItem from="1642968769690" duration="225000" />
       <workItem from="1642969086251" duration="1648000" />
       <workItem from="1642971149965" duration="1301000" />
+      <workItem from="1642973211028" duration="920000" />
     </task>
     <servers />
   </component>
