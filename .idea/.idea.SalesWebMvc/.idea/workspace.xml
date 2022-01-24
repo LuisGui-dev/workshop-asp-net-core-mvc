@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea24a689-0947-4e70-b6f4-6fb846bc6979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Sellers/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Sellers/Details.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SalesWebMvc/Services/SellerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Services/SellerService.cs" afterDir="false" />
@@ -94,7 +94,7 @@
       <workItem from="1642969086251" duration="1648000" />
       <workItem from="1642971149965" duration="1301000" />
       <workItem from="1642973211028" duration="5888000" />
-      <workItem from="1642981205359" duration="3460000" />
+      <workItem from="1642981205359" duration="5266000" />
     </task>
     <servers />
   </component>
