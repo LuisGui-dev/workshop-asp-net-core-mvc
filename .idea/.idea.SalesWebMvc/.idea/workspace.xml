@@ -6,12 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea24a689-0947-4e70-b6f4-6fb846bc6979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Services/Exeptions/DbConcurrencyException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Services/Exeptions/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Sellers/Edit.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SalesWebMvc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Controllers/SellersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Services/SellerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Services/SellerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Models/ViewModels/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Models/ViewModels/ErrorViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWebMvc/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWebMvc/Views/Shared/Error.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <workItem from="1642969086251" duration="1648000" />
       <workItem from="1642971149965" duration="1301000" />
       <workItem from="1642973211028" duration="5888000" />
-      <workItem from="1642981205359" duration="6718000" />
+      <workItem from="1642981205359" duration="7434000" />
     </task>
     <servers />
   </component>
